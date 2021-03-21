@@ -11,6 +11,8 @@ public class BrowserTest extends FirstSeleniumClass1 {
         init();
         driver.findElement(By.xpath("//*[@id='header']/div[2]/div/div/nav/div[1]/a")).click();
         driver.findElement(By.xpath("//*[@id='email']")).sendKeys("Sariath@gmail.com");
+        driver.findElement(By.xpath("//*[@id='passwd']")).sendKeys("Sr248");
+        driver.findElement(By.xpath("//*[@id='SubmitLogin']/span")).click();
         Thread.sleep(5000);
         driver.findElement(By.xpath("//*[@id='email']")).clear();
         WebElement element= driver.findElement(By.xpath("//*[@id='contact-link']/a"));
