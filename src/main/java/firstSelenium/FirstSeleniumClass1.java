@@ -8,13 +8,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.Test;
 
-public class firstSeleniumClass1 {
-    @Test
+public class FirstSeleniumClass1 {
+   // @Test
+    public WebDriver driver;
     public void init(){
         System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
-        WebDriver driver = new ChromeDriver();
+         driver = new ChromeDriver();
         driver.get("http://automationpractice.com/index.php");
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
