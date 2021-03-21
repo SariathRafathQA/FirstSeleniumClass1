@@ -2,6 +2,7 @@ package sceondTest;
 
 import firstSelenium.FirstSeleniumClass1;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class BrowserTest extends FirstSeleniumClass1 {
@@ -12,5 +13,8 @@ public class BrowserTest extends FirstSeleniumClass1 {
         driver.findElement(By.xpath("//*[@id='email']")).sendKeys("Sariath@gmail.com");
         Thread.sleep(5000);
         driver.findElement(By.xpath("//*[@id='email']")).clear();
+        WebElement element= driver.findElement(By.xpath("//*[@id='contact-link']/a"));
+        element.isDisplayed();
+        System.out.println(element.getText());
     }
 }
