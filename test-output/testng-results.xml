@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-22T10:16:03 EDT" name="Regression" finished-at="2021-05-22T10:16:12 EDT" duration-ms="8449">
+    <groups>
+    </groups>
+    <test started-at="2021-05-22T10:16:03 EDT" name="login test" finished-at="2021-05-22T10:16:08 EDT" duration-ms="4894">
+      <class name="loginTest.validLoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:loginTest.validLoginTest@4de4b452]" started-at="2021-05-22T10:16:03 EDT" name="init" finished-at="2021-05-22T10:16:07 EDT" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyLoginInputProperly()[pri:0, instance:loginTest.validLoginTest@4de4b452]" started-at="2021-05-22T10:16:07 EDT" name="verifyLoginInputProperly" finished-at="2021-05-22T10:16:08 EDT" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInputProperly -->
+      </class> <!-- loginTest.validLoginTest -->
+    </test> <!-- login test -->
+    <test started-at="2021-05-22T10:16:08 EDT" name="overview page display" finished-at="2021-05-22T10:16:12 EDT" duration-ms="3536">
+      <class name="overviewPage.OverviewDisplayTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:08 EDT" name="init" finished-at="2021-05-22T10:16:12 EDT" duration-ms="3225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifySpecialTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="verifySpecialTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecialTextDisplay -->
+        <test-method signature="newProductsTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="newProductsTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newProductsTextDisplay -->
+        <test-method signature="bestSellersTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="bestSellersTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bestSellersTextDisplay -->
+        <test-method signature="ourStoresTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="ourStoresTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ourStoresTextDisplay -->
+        <test-method signature="contactUsTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="contactUsTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsTextDisplay -->
+        <test-method signature="termsAndConditionTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="termsAndConditionTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termsAndConditionTextDisplay -->
+        <test-method signature="aboutUSTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="aboutUSTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUSTextDisplay -->
+        <test-method signature="siteMapTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="siteMapTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteMapTextDisplay -->
+        <test-method signature="myOrdersTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="myOrdersTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myOrdersTextDisplay -->
+        <test-method signature="myCreditSlipsTextDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@4d0f2471]" started-at="2021-05-22T10:16:12 EDT" name="myCreditSlipsTextDisplay" finished-at="2021-05-22T10:16:12 EDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myCreditSlipsTextDisplay -->
+      </class> <!-- overviewPage.OverviewDisplayTest -->
+    </test> <!-- overview page display -->
+  </suite> <!-- Regression -->
+</testng-results>

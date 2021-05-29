@@ -5,40 +5,43 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
-public class ScriptBass {
+public class ScriptBase {
     public WebDriver driver;
-
-
 
     @BeforeTest
     public void init() {
-        String browser = "firefox";
+        String browser = "chrome";
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {
-            WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
+            WebDriverManager.firefoxdriver().setup();
+
         }
         driver.get("http://automationpractice.com/index.php");
-       // driver.quit();
+
 
     }
 }
+
 //        System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
 //         driver = new ChromeDriver();
 //        driver.get("http://automationpractice.com/index.php");
 //        //driver.quit();
 
 
-//    @Test
+    // @Test
 //
-//    public void getout(){
-//        System.setProperty("webdriver.gecko.driver","./drivers/geckodriver");
-//        WebDriver driver = new FirefoxDriver();
-//        driver.get("http://automationpractice.com/index.php");
-//        driver.quit();
+    //public void getout() {
+        //System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
+      //  WebDriver driver = new FirefoxDriver();
+       // driver.get("http://automationpractice.com/index.php");
+        //driver.quit();
+  //  }
+//}
 //
 //
 //    }

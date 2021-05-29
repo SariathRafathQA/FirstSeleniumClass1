@@ -1,14 +1,13 @@
 package sceondTest;
 
-import base.ScriptBass;
+import base.ScriptBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class BrowserTest extends ScriptBass {
+public class BrowserTest extends ScriptBase {
     @Test
     public void test1() throws InterruptedException {
-        init();
         driver.findElement(By.xpath("//*[@id='header']/div[2]/div/div/nav/div[1]/a")).click();
         driver.findElement(By.id("//*[@id='email']")).sendKeys("Sariath@gmail.com");
         driver.findElement(By.xpath("//*[@id='passwd']")).sendKeys("Sr248");

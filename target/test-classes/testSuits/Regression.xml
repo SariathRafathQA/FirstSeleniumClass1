@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Contact Us Test">
+        <classes>
+            <class name="contactUsTest.ContactUsClass">
+                <methods>
+                    <include name="contactUsButtonTest"/>
+                    <include name="contactUsButtonTest1"/>
+                    <include name="contactUsButtonTest2"/>
+                    <include name="contactUsButtonTest3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--    <test-->
+<!--            verbose="2" preserve-order="true" name="overview page display">-->
+<!--        <classes>-->
+<!--            <class name="overviewPage.OverviewDisplayTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifySpecialTextDisplay"/>-->
+<!--                    <include name="newProductsTextDisplay"/>-->
+<!--                    <include name="bestSellersTextDisplay"/>-->
+<!--                    <include name="ourStoresTextDisplay"/>-->
+<!--                    <include name="contactUsTextDisplay"/>-->
+<!--                    <include name="termsAndConditionTextDisplay"/>-->
+<!--                    <include name="aboutUSTextDisplay"/>-->
+<!--                    <include name="siteMapTextDisplay"/>-->
+<!--                    <include name="myOrdersTextDisplay"/>-->
+<!--                    <include name="myCreditSlipsTextDisplay"/>-->
+
+
+
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+          
+   
+</suite>

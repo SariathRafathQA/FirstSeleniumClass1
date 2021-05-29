@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="login test(failed)">
+    <classes>
+      <class name="loginTest.validLoginTest">
+        <methods>
+          <include name="verifyLoginInputProperly"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- loginTest.validLoginTest -->
+    </classes>
+  </test> <!-- login test(failed) -->
+  <test thread-count="5" name="overview page display(failed)">
+    <classes>
+      <class name="overviewPage.OverviewDisplayTest">
+        <methods>
+          <include name="termsAndConditionTextDisplay"/>
+          <include name="siteMapTextDisplay"/>
+          <include name="verifySpecialTextDisplay"/>
+          <include name="myOrdersTextDisplay"/>
+          <include name="init"/>
+          <include name="aboutUSTextDisplay"/>
+          <include name="contactUsTextDisplay"/>
+          <include name="bestSellersTextDisplay"/>
+          <include name="myCreditSlipsTextDisplay"/>
+          <include name="ourStoresTextDisplay"/>
+          <include name="newProductsTextDisplay"/>
+        </methods>
+      </class> <!-- overviewPage.OverviewDisplayTest -->
+    </classes>
+  </test> <!-- overview page display(failed) -->
+</suite> <!-- Failed suite [Regression] -->
